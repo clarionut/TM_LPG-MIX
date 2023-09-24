@@ -6,4 +6,4 @@ It includes the variation switches of the TM-LPG-X, but can be built using capac
 
 In their original forms an LPG module would be connected to the Turing Machine PULSES header and a Mix module to the GATES header. This design includes a daughter board which allows both headers to be connected simultaneously. The active connection is selected by a switch or a gate voltage input (the gate input is only active when the switch is OFF).
 
-The PCB layout file uses a custom footprint for the vactrols and a custom model for the 3D viewer. There are included in the TM_LPG-MIX folder - you will have to move them to appropriate locations and tell KiCad where to find them.
+The PCB layout file uses a custom footprint for the vactrols and a custom model for the 3D viewer. There are included in the TM_LPG-MIX folder - you will have to move them to appropriate locations and tell KiCad where to find them. The PCB design is intended to be processed using the kicad-round-tracks add-on (https://github.com/mitxela/kicad-round-tracks).
