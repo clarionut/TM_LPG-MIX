@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AudioJack_Ground_Switch
+D Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)
+K audio jack receptacle mono headphones phone TS connector
+F ~
+$ENDCMP
+#
+$CMP DAC0800
+D 8-bit multiplying DAC
+K 8 bit multiplying DAC
+F https://www.ti.com/lit/ds/symlink/dac0800.pdf
+$ENDCMP
+#
+$CMP LM3900
+D Quad Norton operational amplifiers, SOIC-14/TSSOP-14
+K quad Norton opamp
+F https://www.ti.com/lit/ds/symlink/lm3900.pdf
+$ENDCMP
+#
+$CMP SW_3PDT
+D Switch, 3 pole double throw
+K switch 3 pole double-throw 3PDT ON-ON
+F ~
+$ENDCMP
+#
+$CMP SW_3PDT_CO
+D Switch, 3 pole double throw centre off
+K switch 3 pole double-throw 3PDT ON-OFF-ON
+F ~
+$ENDCMP
+#
+$CMP SW_DPDT
+D Switch, dual pole double throw
+K switch dual-pole double-throw DPDT ON-ON
+F ~
+$ENDCMP
+#
+$CMP SW_DPDT_CO
+D Switch, dual pole double throw centre off
+K switch dual-pole double-throw DPDT ON-OFF-ON
+F ~
+$ENDCMP
+#
+$CMP SW_SP4T
+D Switch, four position, single pole 4 throw, 4 position switch, SP4T
+K switch dp3t ON-ON-ON
+F ~
+$ENDCMP
+#
+$CMP SW_SPDT_CO
+D Switch, single pole double throw centre off
+K switch single-pole double-throw SPDT ON-OFF-ON
+F ~
+$ENDCMP
+#
+#End Doc Library
