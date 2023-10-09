@@ -8,6 +8,6 @@ In their original forms an LPG module would be connected to the Turing Machine P
 
 Taken together, these features allow the unit to be built as a TM-LPG-X, a Turing Machine Vactrol Mix with variation switches, or as a fully configurable combination of the two.
 
-The PCB layout file uses a custom footprint for the vactrols and a custom model for the 3D viewer. There are included in the TM_LPG-MIX folder - you will have to move them to appropriate locations and tell KiCad where to find them. The PCB design is intended to be processed using the kicad-round-tracks add-on (https://github.com/mitxela/kicad-round-tracks).
+The PCB layout file uses a custom footprint for the vactrols and a custom model for the 3D viewer. There are included in the TM_LPG-MIX folder - you will have to move them to appropriate locations and tell KiCad where to find them. The PCB design is intended to be processed using the kicad-round-tracks add-on (https://github.com/mitxela/kicad-round-tracks). The schematic also includes a custom audio jack symbol, so I've include both the cache-lib file for the project and a copy of my customised symbols lbrary.
 
 This design is Creative Commons Licensed by Chris Earnshaw: CC-BY-SA - inherited from the parent designs.
